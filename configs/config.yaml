@@ -1,0 +1,15 @@
+watch_dir: "C:/Users/DELL/Downloads"
+
+rules:
+  Images: [".jpg", ".jpeg", ".png", ".gif", ".bmp", ".svg", ".tiff", ".webp"]
+  Docs: [".pdf", ".docx", ".doc", ".txt", ".rtf", ".odt", ".md", ".tex"]
+  Videos: [".mp4", ".mov", ".avi", ".mkv", ".flv", ".wmv", ".webm"]
+  Audio: [".mp3", ".wav", ".aac", ".flac", ".ogg", ".m4a"]
+  Archives: [".zip", ".rar", ".7z", ".tar", ".gz"]
+  Spreadsheets: [".xls", ".xlsx", ".csv", ".ods"]
+  Presentations: [".ppt", ".pptx", ".odp"]
+  Code: [".go", ".py", ".js", ".ts", ".java", ".c", ".cpp", ".cs", ".php", ".rb", ".swift", ".html", ".css"]
+  Executables: [".exe", ".msi", ".bat", ".sh", ".apk", ".dmg"]
+  Databases: [".sql", ".db", ".sqlite", ".mdb", ".accdb"]
+  Fonts: [".ttf", ".otf", ".woff", ".woff2"]
+  Others: []   

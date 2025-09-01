@@ -1,0 +1,24 @@
+@'
+# Binaries
+/bin/
+/*.exe
+/*.out
+
+# Logs
+*.log
+organizer.log
+
+# Local config overrides
+*.local.yaml
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Go build cache
+pkg/
+'@ | Set-Content -Path .\.gitignore -Encoding UTF8
